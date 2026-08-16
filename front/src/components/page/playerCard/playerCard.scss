@@ -1,0 +1,116 @@
+.player-card {
+  background: white;
+  border-radius: 18px;
+
+  padding: 30px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .06);
+
+  text-align: center;
+
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 27px;
+    color: #10254f;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #4e5f79;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  small {
+    display: block;
+    color: #93a2ba;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    color: #081c43;
+    font-size: 32px;
+  }
+}
+
+.badge {
+  display: inline-block;
+
+  padding: 7px 16px;
+
+  border-radius: 25px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  margin-bottom: 18px;
+}
+
+.forward {
+  background: #ffe3e1;
+  color: #ff5447;
+}
+
+.midfielder {
+  background: #efe2ff;
+  color: #904cff;
+}
+
+.defender {
+  background: #e7efff;
+  color: #4a79ff;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.buttons button {
+  flex: 1;
+
+  height: 46px;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.view {
+  border: none;
+  background: #10254f;
+  color: white;
+}
+
+.view:hover {
+  background: #17346e;
+}
+
+.transfer {
+  background: white;
+  border: 1px solid #d8e0ef;
+}
+
+.transfer:hover {
+  background: #f4f7fc;
+}

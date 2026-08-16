@@ -1,0 +1,65 @@
+.header {
+  height: 72px;
+  background: #0d2453;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  h2 {
+    color: white;
+    font-size: 28px;
+  }
+
+  span {
+    color: #9db0cf;
+    font-size: 18px;
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  input {
+    width: 280px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+    background: #1f3d72;
+    color: white;
+
+    &::placeholder {
+      color: #90a7c9;
+    }
+  }
+
+  button {
+    height: 42px;
+    padding: 0 24px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .player-btn {
+    background: #1eb54a;
+    color: white;
+  }
+
+  .club-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+  }
+}
