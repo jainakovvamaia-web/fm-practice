@@ -1,0 +1,44 @@
+.freeAgents{
+width:1400px;
+margin:70px auto;
+.freeAgents-title {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #142850;
+  }
+
+  .line {
+    flex: 1;
+    height: 1px;
+    background: #d9e1ed;
+  }
+}
+
+
+.list{
+
+display:flex;
+
+flex-direction:column;
+
+gap:22px;
+
+}
+}
+
+
+@media(max-width:1200px){
+
+.freeAgents{
+
+width:95%;
+
+}
+
+}

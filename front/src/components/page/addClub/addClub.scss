@@ -1,0 +1,126 @@
+.add-club {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.club-container {
+  width: 560px;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #6b7a99;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 0;
+
+  &:hover {
+    color: #0d2453;
+  }
+}
+
+.club-container h1 {
+  font-size: 44px;
+  color: #0d2453;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #7f8da8;
+  margin-bottom: 35px;
+}
+
+.club-form {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e5edf8;
+  padding: 32px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .04);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2453;
+    margin-bottom: 8px;
+
+    span {
+      color: #ff4f5d;
+    }
+  }
+
+  input {
+    height: 52px;
+    border: 1px solid #dce5f2;
+    border-radius: 12px;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+
+    &::placeholder {
+      color: #a3aec2;
+    }
+
+    &:focus {
+      border-color: #20b24b;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 18px;
+  margin-top: 28px;
+
+  button {
+    flex: 1;
+    height: 52px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+.save-btn {
+  background: #1faa49;
+  color: white;
+  border: none;
+
+  &:hover {
+    background: #18973e;
+  }
+}
+
+.cancel-btn {
+  background: white;
+  border: 1px solid #dce5f2;
+  color: #0d2453;
+
+  &:hover {
+    background: #f5f7fb;
+  }
+}
+
+@media (max-width: 650px) {
+  .club-container {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
